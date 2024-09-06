@@ -4,6 +4,7 @@ import java.util.*;
 public class Wspp {
     public static void main(String[] args) {
         Map<String, ArrayList<Integer>> map = new LinkedHashMap<>();
+        int coooo = 0;
         String fileIn = args[0];
         String fileOut = args[1];
         StringBuilder sb = new StringBuilder();
