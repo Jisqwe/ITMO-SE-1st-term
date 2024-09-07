@@ -10,6 +10,9 @@ int perimetr(int a, int b){
 int delta(int a, int b){
   return (abs(a - b));
 }
+int lts(int a){
+  return (a * a * a);
+}
 int main(){
     int a, b;
     cin >> a >> b;
